@@ -3,8 +3,22 @@
 #  print("number is positive")
 # else:
 #  print("number is negative")
-number=int(input("enter a number"))
-if number %2==0:
-    print("is even") 
-else :
-    print("odd")
+# number=int(input("enter a number"))
+# if number %2==0:
+#     print("is even") 
+# else :
+#     print("odd")
+
+cost_price=int(input("enter cost price: "))
+selling_price=int(input("enter selling price "))
+if selling_price>cost_price:
+    print("you made profit ")
+    print("profit you amde is ")
+    print(selling_price-cost_price)
+elif selling_price<cost_price:
+     print("you made loss")
+else:
+     selling_price==cost_price
+     print("neither profit nor loss")
+
+     
