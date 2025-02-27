@@ -23,13 +23,12 @@
 
      
 
-marks=int(input("enter marks"))
-if marks>80:
-  print("very good")
-elif 61<=marks> marks  <=80:
-  print("good")
-elif 41<= marks <=60:
-  print("average")
-else:
-  print("fail")
-  
+# marks=int(input("enter marks"))
+# if marks>80:
+#   print("very good")
+# elif 61<=marks> marks  <=80:
+#   print("good")
+# elif 41<= marks <=60:
+#   print("average")
+# else:
+#   print("fail")
