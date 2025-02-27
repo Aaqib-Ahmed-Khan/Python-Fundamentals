@@ -1,0 +1,10 @@
+# number=int(input("enter a number"))
+# if number>=0: 
+#  print("number is positive")
+# else:
+#  print("number is negative")
+number=int(input("enter a number"))
+if number %2==0:
+    print("is even") 
+else :
+    print("odd")
