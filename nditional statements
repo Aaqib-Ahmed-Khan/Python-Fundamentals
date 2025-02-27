@@ -9,16 +9,27 @@
 # else :
 #     print("odd")
 
-cost_price=int(input("enter cost price: "))
-selling_price=int(input("enter selling price "))
-if selling_price>cost_price:
-    print("you made profit ")
-    print("profit you amde is ")
-    print(selling_price-cost_price)
-elif selling_price<cost_price:
-     print("you made loss")
-else:
-     selling_price==cost_price
-     print("neither profit nor loss")
+# cost_price=int(input("enter cost price: "))
+# selling_price=int(input("enter selling price "))
+# if selling_price>cost_price:
+#     print("you made profit ")
+#     print("profit you amde is ")
+#     print(selling_price-cost_price)
+# elif selling_price<cost_price:
+#      print("you made loss")
+# else:
+#      selling_price==cost_price
+#      print("neither profit nor loss")
 
      
+
+marks=int(input("enter marks"))
+if marks>80:
+  print("very good")
+elif 61<=marks> marks  <=80:
+  print("good")
+elif 41<= marks <=60:
+  print("average")
+else:
+  print("fail")
+  
