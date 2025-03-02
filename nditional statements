@@ -32,3 +32,35 @@
 #   print("average")
 # else:
 #   print("fail")
+
+# marks=int(input("enter marks"))
+# if marks>=80 and marks<=100:
+#   print("grade:A")
+# elif 61<=marks <80:
+#   print("grade:B")
+# elif 40<= marks <=50:
+#   print("Grade:C")
+# elif marks<=120 and marks>=101:
+#   print("Grade:z")
+# elif 25<= marks <=45:
+#   print("Grade:E")
+# else:
+#   print("fail")
+
+
+# question2
+name=input("enter your name: ")
+print(name)
+
+age=int(input("enter age of yours:"))
+if age>=20 and age<=40:
+   print("you ", name ,"are eligible to work:")
+else:
+   print("not eligible")
+gender=input("enter your gender:")
+if gender=="female":
+   
+   print("work only in urban areas:")
+elif gender=="male":
+   print("you can work anywhere")
+
