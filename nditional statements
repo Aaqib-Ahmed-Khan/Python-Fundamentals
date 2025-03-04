@@ -49,18 +49,28 @@
 
 
 # question2
-name=input("enter your name: ")
-print(name)
+# name=input("enter your name: ")
+# print(name)
 
-age=int(input("enter age of yours:"))
-if age>=20 and age<=40:
-   print("you ", name ,"are eligible to work:")
-else:
-   print("not eligible")
-gender=input("enter your gender:")
-if gender=="female":
+# age=int(input("enter age of yours:"))
+# if age>=20 and age<=40:
+#    print("you ", name ,"are eligible to work:")
+# else:
+#    print("not eligible")
+# gender=input("enter your gender:")
+# if gender=="female":
    
-   print("work only in urban areas:")
-elif gender=="male":
-   print("you can work anywhere")
+#    print("work only in urban areas:")
+# elif gender=="male":
+#    print("you can work anywhere")
 
+n = int(input("Enter an integer: "))
+
+if n % 2 != 0:
+    print("Weird")
+elif n % 2 == 0 and 2 <= n <= 5:
+    print("Not Weird")
+elif n % 2 == 0 and 6 <= n <= 20:
+    print("Weird")
+elif n % 2 == 0 and n > 20:
+    print("Not Weird")
