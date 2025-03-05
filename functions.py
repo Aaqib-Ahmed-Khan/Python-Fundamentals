@@ -27,8 +27,23 @@
 
 
 # dictionary arguments
-def studentinfo(**kwargs):
-    for x,y in kwargs.items():
-        print(x,"is",y)
-studentinfo(name="aaqib",age=21,city="karachi")
-studentinfo(name="ahmed",age=22,city="lahore")
+# def studentinfo(**kwargs):
+#     for x,y in kwargs.items():
+#         print(x,"is",y)
+# studentinfo(name="aaqib",age=21,city="karachi")
+# studentinfo(name="ahmed",age=22,city="lahore")
+
+# student_1= [70,80,90]
+# sumof_marks= sum(student_1)
+# total_sub=len(student_1)
+# average= sumof_marks / total_sub
+# print("average of student is ",average)
+
+# defining functions
+# def function_name(par1,par2,):
+#         function statement
+# """"""
+def sum (a,b):
+    c=a + b
+    print("sum is",c )
+sum(12,14)
