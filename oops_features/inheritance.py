@@ -1,5 +1,5 @@
 #allows the class(child) to resue the props and methods of another child (parent)
-
+# inheritance
 # this is parent class 
 class Student:
    def __init__(self,name,grade):  #method
@@ -21,6 +21,12 @@ student2.student_details()
 
 
 # child class
-class graduate(Student):
-   def _init_(name,grade):
-     super().__init__(name,grade)
+class graduate(Student):  # parameter from parent class added in next line
+   def __init__(self,name,grade,stream):#here stream added another attribute like for graduate students
+    super().__init__(name,grade) #call parent
+    # class init
+    self.stream=stream
+
+#  object   
+Grad_student1=graduate("aaqib",1,"BSCS")
+print(Grad_student1)
