@@ -22,4 +22,7 @@
 # data.to_csv("output.csv", index=False)  # Saves the dataset in 'output.csv'
 # print("Dataset saved to output.csv")
 import pandas as pd
-print(pd.__version__) 
+# print(pd.__version__) 
+aaqib=[1,2,3,4]
+aaqibnew=pd.Series(aaqib)
+print(aaqibnew)
