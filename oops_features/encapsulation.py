@@ -1,1 +1,0 @@
-#using get method we hide code which i mean something or anything you dint want to show it to user
