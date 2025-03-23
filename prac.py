@@ -25,4 +25,10 @@ import pandas as pd
 # print(pd.__version__) 
 aaqib=[1,2,3,4]
 aaqibnew=pd.Series(aaqib)
+print(aaqibnew) 
+
+# with create label you can create youe own label
+import pandas as pd
+aaqib=[1,2,3]
+aaqibnew=pd.Series(aaqib,index=["x","y","z"])
 print(aaqibnew)
