@@ -32,3 +32,14 @@ import pandas as pd
 aaqib=[1,2,3]
 aaqibnew=pd.Series(aaqib,index=["x","y","z"])
 print(aaqibnew)
+
+# creating  pandas series from dictionary
+import pandas as pd
+courses={"day1":1,"day2":2,"day3":3,}
+aaqibnew=pd.Series(courses)
+print(aaqibnew)
+#  now printng only day 1 and day2
+import pandas as pd
+courses={"day1":1,"day2":2,"day3":3}
+aaqibnew=pd.Series(courses,["day1","day2"])
+print(aaqibnew)
