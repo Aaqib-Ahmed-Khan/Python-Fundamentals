@@ -43,3 +43,12 @@ import pandas as pd
 courses={"day1":1,"day2":2,"day3":3}
 aaqibnew=pd.Series(courses,["day1","day2"])
 print(aaqibnew)
+
+# 1 dimensional finished now moving to 2 dimensional
+# dataframs: data sets in pandas are usually multidmensional tables and they are called dataframes 
+# dataframes is whole table and previously we were working on just coloum in series 
+import pandas as pd
+aaqib ={"courses":[1,2,3],"times":[10,20,30]}
+aaqibnew=pd.DataFrame(aaqib)
+print(aaqibnew)
+# now after this ypu se its good looking and indexing also came by default
