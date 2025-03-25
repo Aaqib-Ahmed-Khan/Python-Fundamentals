@@ -14,3 +14,9 @@ import pandas as pd
 data={"cal":[200,300,400],"duration":[40,45,50]}
 aaqib=pd.DataFrame(data)
 print(aaqib.loc[[0,1]])
+
+# name index with the index argument we can anme our own index
+import pandas as pd
+data={"cal":[200,300,400],"duration":[40,45,50]}
+aaqib=pd.DataFrame(data,index=["day1","day2","day3"])
+print(aaqib)
