@@ -1,3 +1,10 @@
+# dict={
+#     'a':100,
+#     'b':200,
+#     'c':300
+# }
+# print("the sum of dictionary values is",sum(dict.values())) 
+
 input_string=input("enter a string:")
 n=int(input("enter n :"))
 alphabets="abcdefghijklmnopqrstuvwxyz"
