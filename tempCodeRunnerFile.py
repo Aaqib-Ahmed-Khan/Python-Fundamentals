@@ -1,14 +1,9 @@
-input_string=input("enter a string:")
-n=int(input("enter n :"))
-alphabets="abcdefghijklmnopqrstuvwxyz"
-reverse_alphabets = alphabets[::-1]
-dict1 = dict(zip(alphabets,reverse_alphabets))
-prefix= input_string[0:n-1]
-suffix= input_string[n-1:]
-mirror=""
-for i in range(0,len(suffix)):
-    mirror=mirror + dict1[suffix[i]]
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
 
-# creating a final string
-res=prefix + mirror
-print("the result is:",res)
+data =pd.read_csv("IMDB-Movie-Data")
+data.shape
+(1000,10)
+data.head()
