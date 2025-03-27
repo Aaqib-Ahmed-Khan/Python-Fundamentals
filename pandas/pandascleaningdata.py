@@ -54,4 +54,4 @@ import pandas as pd
 aaqib = pd.read_csv(r'D:\Python\pandas\dirtydata.csv')
 x=aaqib["Calories"].mode()[0]
 aaqib["Calories"].fillna(x,inplace=True)
-print(aaqib.to_string())  #mostly used mode 
+print(aaqib.to_string())  #mostly used mode  
