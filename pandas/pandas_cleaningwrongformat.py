@@ -6,7 +6,7 @@ print(aaqib.to_string)
 # lets try to convert all the cells in the date columns into dates.via tp_datetime()
 import pandas as pd
 aaqib=pd.read_csv(r'D:\Python\pandas\dirtydata.csv')
-aaqib["Date"]=pd.to_datetime(aaqib['Date'], errors='coerce')
+aaqib["Date"]=pd.to_datetime(+aaqib['Date'], errors='coerce')
 print(aaqib.to_string())
 
 
