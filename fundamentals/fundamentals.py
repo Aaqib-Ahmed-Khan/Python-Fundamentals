@@ -15,3 +15,5 @@ number2=int(input("enter numbr 2:"))
 sum=number1+number2
 print("sum o ftwo numebrs is ",sum)
 
+print('''hellow aaqib how are you
+      nice to meet you ''')
